@@ -6,7 +6,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <title>Ice Cream</title>
-    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="stylesheet" href="./src/sass/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
     <header class="header">
       <div class="container">
         <a href="#" class="header__logo link">
-          <img src="./images/logo.png" width="199px" height="50" alt="logo ice cream" />
+          <img src="./src/images/logo.png" width="199px" height="50" alt="logo ice cream" />
         </a>
         <nav class="nav">
           <ul class="list nav__list">
@@ -46,11 +46,11 @@
           <div class="header__wrap">
             <button type="button" class="menu-open-btn" data-menu-button="">
               <svg class="menu-icon" width="20" height="20">
-                <use href="./images/sprite.svg#icon-burger"></use>
+                <use href="./src/images/sprite.svg#icon-burger"></use>
               </svg>
               <!-- <svg class="footer-socialmedia__icon" width="34" height="34">
                   <use
-                    href="./images/sprite2.svg#icon-facebook2"
+                    href="./src/images/sprite2.svg#icon-facebook2"
                     width="16"
                     height="22"
                     x="10"
@@ -61,7 +61,7 @@
             <button type="button" class="nav__btn" data-modal-open="">
               Buy now
               <svg class="nav__icon" width="10" height="10">
-                <use href="./images/sprite.svg#icon-arrow-right"></use>
+                <use href="./src/images/sprite.svg#icon-arrow-right"></use>
               </svg>
             </button>
           </div>
@@ -73,7 +73,7 @@
     <div class="mobile__menu-container js-menu-container" id="mobile-menu">
       <button class="mobile__button js-close-menu">
         <svg class="mobile__close-icon">
-          <use href="./images/sprite.svg#icon-close"></use>
+          <use href="./src/images/sprite.svg#icon-close"></use>
         </svg>
       </button>
       <div>
@@ -83,7 +83,7 @@
               <button type="button" class="nav__btn-mobile" data-modal-open="">
                 Buy now
                 <svg class="nav__icon" width="10" height="10">
-                  <use href="./images/sprite.svg#icon-arrow-right"></use>
+                  <use href="./src/images/sprite.svg#icon-arrow-right"></use>
                 </svg>
               </button>
             </li>
@@ -121,7 +121,7 @@
                   incididunt ut labore et. dolore magna aliqua facilisis.
                 </p>
                 <div class="products__icon">
-                  <img src="./images/arrow-right.png" alt="arrow" width="40px" height="40px" />
+                  <img src="./src/images/arrow-right.png" alt="arrow" width="40px" height="40px" />
                 </div>
               </div>
             </li>
@@ -133,7 +133,7 @@
                   incididunt ut labore et. dolore magna aliqua facilisis.
                 </p>
                 <div class="products__icon">
-                  <img src="./images/arrow-right.png" alt="arrow" width="40px" height="40px" />
+                  <img src="./src/images/arrow-right.png" alt="arrow" width="40px" height="40px" />
                 </div>
               </div>
             </li>
@@ -145,7 +145,7 @@
                   incididunt ut labore et. dolore magna aliqua facilisis.
                 </p>
                 <div class="products__icon">
-                  <img src="./images/arrow-right.png" alt="arrow" width="40px" height="40px" />
+                  <img src="./src/images/arrow-right.png" alt="arrow" width="40px" height="40px" />
                 </div>
               </div>
             </li>
@@ -160,14 +160,14 @@
       <div class="about__section">
         <img
           class="about__images"
-          src="./images/making/cow-desk.png"
+          src="./src/images/making/cow-desk.png"
           srcset="
-            ./images/making/cow-desk.png      270w,
-            ./images/making/cow-desk@2x.png   540w,
-            ./images/making/cow-tablet.png    354w,
-            ./images/making/cow-tablet@2x.png 708w,
-            ./images/making/cow-mob.png       450w,
-            ./images/making/cow-mob@2x.png    900w
+            ./src/images/making/cow-desk.png      270w,
+            ./src/images/making/cow-desk@2x.png   540w,
+            ./src/images/making/cow-tablet.png    354w,
+            ./src/images/making/cow-tablet@2x.png 708w,
+            ./src/images/making/cow-mob.png       450w,
+            ./src/images/making/cow-mob@2x.png    900w
           "
           sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px"
           alt="cow with milk"
@@ -190,7 +190,7 @@
         </div>
         <button class="about__button" type="button">
           Read more<svg class="about__icon">
-            <use href="./images/sprite.svg#icon-arrow-right"></use>
+            <use href="./src/images/sprite.svg#icon-arrow-right"></use>
           </svg>
         </button>
       </div>
@@ -203,9 +203,9 @@
           <li class="advantages-list-item">
             <img
               class="advantages-icon"
-              src="./images/making/icon1.png"
+              src="./src/images/making/icon1.png"
               alt="milk bucket"
-              srcset="./images/making/icon1.png 1x, ./images/making/icon1@2x.png 2x"
+              srcset="./src/images/making/icon1.png 1x, ./src/images/making/icon1@2x.png 2x"
             />
             <p class="advantages-list-item-number">721</p>
             <p class="advantages-list-item-text">
@@ -215,9 +215,9 @@
           <li class="advantages-list-item">
             <img
               class="advantages-icon"
-              src="./images/making/icon2.png"
+              src="./src/images/making/icon2.png"
               alt="bucket of apples"
-              srcset="./images/making/icon2.png 1x, ./images/making/icon2@2x.png 2x"
+              srcset="./src/images/making/icon2.png 1x, ./src/images/making/icon2@2x.png 2x"
             />
             <p class="advantages-list-item-number">16kg</p>
             <p class="advantages-list-item-text">
@@ -227,9 +227,9 @@
           <li class="advantages-list-item">
             <img
               class="advantages-icon"
-              src="./images/making/icon3.png"
+              src="./src/images/making/icon3.png"
               alt="heart"
-              srcset="./images/making/icon3.png 1x, ./images/making/icon3@2x.png 2x"
+              srcset="./src/images/making/icon3.png 1x, ./src/images/making/icon3@2x.png 2x"
             />
             <p class="advantages-list-item-number">84</p>
             <p class="advantages-list-item-text">
@@ -340,7 +340,7 @@
               <a class="footer-socialmedia__link" href="">
                 <svg class="footer-socialmedia__icon" width="34" height="34">
                   <use
-                    href="./images/sprite2.svg#icon-github2"
+                    href="./src/images/sprite2.svg#icon-github2"
                     width="20"
                     height="20"
                     x="7"
@@ -351,7 +351,7 @@
               <a class="footer-socialmedia__link" href="">
                 <svg class="footer-socialmedia__icon" width="34" height="34">
                   <use
-                    href="./images/sprite2.svg#icon-icon-send2"
+                    href="./src/images/sprite2.svg#icon-icon-send2"
                     width="20"
                     height="16"
                     x="7"
@@ -362,7 +362,7 @@
               <a class="footer-socialmedia__link" href="">
                 <svg class="footer-socialmedia__icon" width="34" height="34">
                   <use
-                    href="./images/sprite2.svg#icon-facebook2"
+                    href="./src/images/sprite2.svg#icon-facebook2"
                     width="16"
                     height="22"
                     x="10"
